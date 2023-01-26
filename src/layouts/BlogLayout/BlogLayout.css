@@ -1,0 +1,6 @@
+.blog-layout {
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    background-color: var(--light);
+}

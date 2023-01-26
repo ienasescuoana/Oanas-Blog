@@ -1,0 +1,115 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    height: calc(100vh - 263px);
+}
+
+.contact-container .contact-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--font-primary);
+    margin-top: 0;
+}
+
+.contact-container .contact-about {
+    font-family: var(--font-secondary);
+    font-weight: 500;
+}
+
+.contact-container .contact-content-wrapper {
+    display: flex;
+    gap:20rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.contact-container .contact-content-wrapper .find-me-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container .contact-content-wrapper .find-me-wrapper .find-me-label {
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+
+.contact-container .contact-content-wrapper .find-me-wrapper .find-me-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-container .contact-content-wrapper .find-me-wrapper .find-me-links-wrapper .find-me-link {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+}
+
+.contact-container .contact-content-wrapper .find-me-wrapper .find-me-links-wrapper .find-me-link:hover {
+    color: var(--primary-dark);
+}
+
+.contact-container .contact-content-wrapper .find-me-wrapper .find-me-links-wrapper .find-me-link .find-me-icon {
+    color: var(--primary-dark);
+}
+
+.contact-container .contact-content-wrapper .social-media-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container .contact-content-wrapper .social-media-wrapper .social-label {
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+
+.contact-container .contact-content-wrapper .social-media-wrapper .social-media-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-container .contact-content-wrapper .social-media-wrapper .social-media-buttons-wrapper .social-media-button {
+    background-color: var(--primary-dark);
+    color: var(--light);
+    font-family: var(--font-secondary);
+    font-weight: 500;
+}
+
+.contact-container .contact-content-wrapper .social-media-wrapper .social-media-buttons-wrapper .social-media-button:hover {
+    background-color: var(--tertiary);
+}
+
+@media screen and (max-width: 900px) {
+    .contact-container .contact-content-wrapper {
+        gap:10rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact-container .contact-content-wrapper {
+        gap:2rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .contact-container .contact-content-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-container .contact-about {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}

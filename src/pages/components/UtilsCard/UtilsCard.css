@@ -1,0 +1,108 @@
+.utils-card {
+    border-radius: .5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem 2rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.utils-card .utils-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.utils-card .utils-card-content .details-wrapper {
+    width: 100%;
+}
+
+.utils-card .utils-card-content .details-wrapper .utils-title {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--font-primary);
+}
+
+.utils-card .utils-card-content .details-wrapper .utils-description {
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 30px;
+    font-family: var(--font-secondary);
+}
+
+.utils-card .utils-card-content .image {
+    height: 250px;
+    width: 380px;
+    object-fit: cover;
+}
+
+.utils-card:hover {
+    background-color: var(--cards);
+}
+
+.utils-card .link-wrapper .link-button {
+    width: fit-content;
+    background-color: var(--primary-dark);
+    color: var(--light);
+    font-weight: bold;
+    margin: 0 5rem;
+    font-family: var(--font-primary);
+    font-weight: 500;
+}
+
+.utils-card .link-wrapper .link-button:hover {
+    background-color: var(--tertiary);
+}
+
+/* 
+@media screen and (max-width: 550px) {
+    .utils-card {
+        width: 300px;
+    }
+
+    .utils-card .image {
+        max-width: 280px;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .utils-card {
+        width: 220px;
+    }
+
+    .utils-card .image {
+        max-width: 200px;
+        max-height: 150px;
+    }
+} */
+
+@media screen and (max-width: 500px) {
+    .utils-card {
+        width: 280px;
+    }
+
+    .utils-card .image {
+        max-width: 260px;
+        max-height: 200px;
+    }
+
+    .utils-card .link-wrapper .link-button {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .utils-card {
+        width: 220px;
+    }
+    
+
+    .utils-card .image {
+        max-width: 210px;
+        max-height: 150px;
+    }
+}

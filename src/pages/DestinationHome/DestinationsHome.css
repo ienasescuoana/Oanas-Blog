@@ -1,0 +1,25 @@
+.destination-home-wrapper {
+    padding-left: 250px;
+}
+
+.destination-home-wrapper .destination-home-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+
+@media screen and (max-width: 750px) {
+    .destination-home-wrapper {
+        padding-left: 135px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .destination-home-wrapper {
+        padding-left: 0;
+    }
+}

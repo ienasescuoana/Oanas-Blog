@@ -1,0 +1,100 @@
+.post-card {
+    border-radius: .5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem 2rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-card .post-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.post-card .post-card-content .details-wrapper {
+    width: 100%;
+}
+
+.post-card .post-card-content .details-wrapper .post-since {
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+}
+
+.post-card .post-card-content .details-wrapper .post-title {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font-primary);
+}
+
+.post-card .post-card-content .details-wrapper .post-description {
+    font-size: 15px;
+    text-indent: 30px;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+}
+
+.post-card .post-card-content .image {
+    height: 250px;
+    width: 380px;
+    object-fit: cover;
+}
+
+.post-card:hover {
+    background-color: var(--cards);
+}
+
+.post-card .link-wrapper .link-button {
+    width: fit-content;
+    background-color: var(--primary-dark);
+    color: var(--light);
+    font-weight: bold;
+    margin: 0 5rem;
+    font-weight: 500;
+    font-family: var(--font-primary);
+}
+
+.post-card .link-wrapper .link-button:hover {
+    background-color: var(--tertiary);
+}
+
+
+@media screen and (max-width: 1100px) {
+    .post-card {
+        width: 350px;
+        height: 480px;
+    }
+
+    .post-card .image {
+        max-width: 280px;
+        max-height: 200px;
+    }
+
+    .post-card .link-wrapper .link-button {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .post-card {
+        width: 280px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .post-card {
+        width: 220px;
+    }
+
+    .post-card .image {
+        max-width: 210px;
+        max-height: 150px;
+    }
+}

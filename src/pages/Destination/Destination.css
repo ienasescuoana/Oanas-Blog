@@ -1,0 +1,31 @@
+.destination-container {
+    padding-left: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.destination-container .destination-data .destination-data-title {
+    padding-left: 3rem;
+    color: var(--dark);
+}
+
+.destination-container .destination-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+    .destination-container {
+        padding-left: 135px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .destination-container {
+        padding-left: 0;
+    }
+}

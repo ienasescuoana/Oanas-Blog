@@ -1,0 +1,13 @@
+:root {
+    --primary: #FAD8D6; 
+    --primary-dark: #d8256a;
+    --secondary: #F1D302;
+    --tertiary: #f87314;
+    --dark: #1E555C; 
+    --light: #F5F5F5;
+    --cards: #c6ccce;
+
+    --font-primary: 'Playfair Display';
+    --font-secondary: 'Raleway', sans-serif sans-serif;
+    --font-tertiary: 'Sacramento', cursive;
+}

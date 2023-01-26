@@ -1,0 +1,21 @@
+.utils-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.utils-wrapper .utils-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.utils-wrapper .utils-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--font-primary);
+    margin-top: 0;
+}

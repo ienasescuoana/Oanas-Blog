@@ -1,0 +1,33 @@
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+
+.comment-container .comment-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-container .comment-wrapper .comment-user {
+    padding-left: 0.5rem;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.comment-container .comment-wrapper .comment-user .comment-user-name {
+    font-weight: 700;
+    font-family: var(--font-primary);
+}
+
+.comment-container .comment-wrapper .comment-text {
+    padding-left: 2.3rem;
+    margin-top: 0;
+    font-weight: 400;
+    font-family: var(--font-secondary);
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: var(--dark);
+    padding: 0.5rem;
+}

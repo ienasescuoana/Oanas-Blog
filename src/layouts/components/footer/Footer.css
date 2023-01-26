@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer-message {
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: var(--font-primary);
+}
+
+.footer-project {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--dark);
+    margin-top: 0;
+    font-family: var(--font-primary);
+}
+
+
+@media screen and (max-width: 900px) {
+    .footer {
+        display: none;
+    }
+}

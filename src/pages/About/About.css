@@ -1,0 +1,174 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.about-container .about-me-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--font-primary);
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+.about-container .about-me-description-subcontainer {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+.about-container .about-me-description-subcontainer .main-image {
+    max-height: 600px;
+    max-width: 450px;
+    padding-top: 2rem;
+}
+
+.about-container .about-me-description-subcontainer .text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container .about-me-description-subcontainer .text-wrapper .text-main-title {
+    font-family: var(--font-tertiary);
+    font-size: 3.5rem;
+    font-weight: 550;
+    color: var(--primary-dark);
+    margin-bottom: 0;
+}
+.about-container .about-me-description-subcontainer .text-wrapper .text-title {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.about-container .about-me-description-subcontainer .text-wrapper .text-description {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+}
+
+.about-container .about-me-description-subcontainer .text-wrapper .text-final {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.about-container .about-me-description-subcontainer .main-image {
+    width: 500px;
+}
+
+.about-container .about-me-motto-subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container .about-me-motto-subcontainer .motto {
+    font-size: 1.5rem;
+    font-family: var(--font-primary);
+    color: var(--dark);
+    font-weight: 600;
+    padding-top: 2rem;
+    width: 65%;
+}
+
+.about-container .about-me-images-subcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    gap:2rem
+}
+
+
+.about-container .about-me-images-subcontainer .other-image {
+    max-width: 335px;
+}
+
+
+@media screen and (max-width: 1680px) {
+    .about-container .about-me-description-subcontainer .text-wrapper {
+        width: 355px;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    .about-container .about-me-images-subcontainer .other-image {
+        max-width: 250px;
+        max-height: 400px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .about-container .about-me-description-subcontainer .main-image {
+        max-width: 350px;
+        max-height: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 880px) {
+    .about-container .about-me-images-subcontainer .other-image {
+        max-width: 200px;
+        max-height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .about-container .about-me-description-subcontainer {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .about-container .about-me-description-subcontainer .text-wrapper {
+        width: 80%;
+    }
+
+    .about-container .about-me-description-subcontainer .main-image {
+        max-height: 600px;
+        max-width: 450px; 
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .about-container .about-me-images-subcontainer .other-image {
+        max-width: 450px;
+        max-height: 600px;
+        width: 450px;
+        height: 560px;
+    }
+
+    .about-container .about-me-images-subcontainer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-container .about-me-description-subcontainer .main-image {
+        max-width: 350px;
+        max-height: 500px;
+    }
+
+    .about-container .about-me-images-subcontainer .other-image {
+        width: 350px;
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-container .about-me-description-subcontainer .main-image {
+        max-width: 250px;
+        max-height: 400px;
+    }
+
+    .about-container .about-me-images-subcontainer .other-image {
+        width: 250px;
+        height: 360px;
+    }
+}

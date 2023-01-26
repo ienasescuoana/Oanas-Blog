@@ -1,0 +1,25 @@
+.home-wrapper {
+    background-color: var(--light);
+}
+
+.home-wrapper .articles-wrapper .articles-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+
+.home-wrapper .articles-wrapper .articles-label-wrapper .articles-label {
+    padding-left: 3rem;
+    padding-top: 0.6rem;
+    font-size: 1.5rem;
+    color: var(--dark);
+    font-weight: 700;
+    font-family: var(--font-primary);
+}
+
+@media screen and (max-width: 775px) {
+    .home-wrapper .articles-wrapper .articles-label-wrapper .articles-label {
+        font-size: 1.2rem;
+    }
+}
